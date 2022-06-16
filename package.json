@@ -1,0 +1,19 @@
+{
+  "name": "prueba-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "oracledb": "^5.4.0"
+  },
+  "devDependencies": {
+    "electron": "^19.0.4"
+  }
+}
