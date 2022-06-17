@@ -68,6 +68,7 @@ exports.changeToLocal = async (name) => {
           return await connection.execute("ROLLBACK");
         }
       });
+      await connection.execute("COMMIT");
       alert(`EL MODULO ${name} AHORA SE ENCUENTRA DE FORMA LOCAL`);
       return;
     }
@@ -101,6 +102,7 @@ exports.changeToRemote = async (name) => {
           return await connection.execute("ROLLBACK");
         }
       });
+      await connection.execute("COMMIT");
       alert(`EL MODULO ${name} AHORA SE ENCUENTRA DE FORMA REMOTA`);
       return;
     }
