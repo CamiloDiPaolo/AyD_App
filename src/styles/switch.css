@@ -1,0 +1,41 @@
+.switch-state {
+  background-color: #c7bea2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50px;
+  height: 15px;
+  padding: 5px;
+  /* transition: 0.3s; */
+  position: relative;
+  border-radius: 999px;
+}
+.switch-state:hover {
+  cursor: pointer;
+}
+.state {
+  margin: 0;
+  background-color: #a0d995;
+  border-radius: 999px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-active {
+  left: 100%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  background-color: #f9ffa4;
+}
+
+.switch-loading {
+  opacity: 0.9;
+}

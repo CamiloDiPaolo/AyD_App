@@ -3,21 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
-    />
+    /> -->
     <title>Hello World!</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/switch.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>, Chromium
-    <span id="chrome-version"></span>, and Electron
-    <span id="electron-version"></span>.
-    <button id="btn-test">Ver estado de los modulos</button>
-    <button id="btn-eu-local">Cambiar Escritorio a Local</button>
-    <button id="btn-eu-remote">Cambiar Escritorio a Remoto</button>
-    <p id="db-test"></p>
+    <div class="module-container">
+      <ul></ul>
+    </div>
   </body>
-  <!-- <script src="./index.js"></script> -->
 </html>

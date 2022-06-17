@@ -1,7 +1,7 @@
 // probamos cosas en electron
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
-const DB = require("./db");
+// const DB = require("./db");
 
 const createWindow = async () => {
   const win = new BrowserWindow({

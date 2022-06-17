@@ -1,2 +1,5 @@
 config.js
 /node_modules
+/DB/SQL_local.json
+/DB/SQL_remote.json
+/DB/SQL_states.json
