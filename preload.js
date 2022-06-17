@@ -48,6 +48,7 @@ const loadModulesStates = async () => {
     switchState.addEventListener("click", (e) => {
       const state = switchState.querySelector(".state");
       const module = switchState.dataset.module;
+      console.log(module, state);
       console.log(module);
       if (state.classList.contains("switch-active")) {
         // Si el modulo esta en remoto

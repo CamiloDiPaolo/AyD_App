@@ -3,3 +3,4 @@ config.js
 /DB/SQL_local.json
 /DB/SQL_remote.json
 /DB/SQL_states.json
+out/
